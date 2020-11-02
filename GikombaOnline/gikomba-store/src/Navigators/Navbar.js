@@ -28,22 +28,8 @@ render() {
             <MDBNavItem active to="/">
             <Nav.Link href="/">Home</Nav.Link>
             </MDBNavItem>
-            <MDBNavItem href="/AboutPage">
-            <Nav.Link href="/AboutPage">About Us</Nav.Link>
-            </MDBNavItem>
-
-            <MDBNavItem>
-            <MDBDropdown>
-              <MDBDropdownToggle nav caret>
-                <span className="mr-2">Help</span>
-              </MDBDropdownToggle>
-              <MDBDropdownMenu>
-                <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
-                <MDBDropdownItem href="/MensWear">FAQs</MDBDropdownItem>
-                
-              </MDBDropdownMenu>
-            </MDBDropdown>
-          </MDBNavItem>
+           
+           
 
             <MDBNavItem>
               <MDBDropdown>
@@ -58,6 +44,24 @@ render() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
+
+            <MDBNavItem href="/AboutPage">
+            <Nav.Link href="/AboutPage">About Us</Nav.Link>
+            </MDBNavItem>
+
+
+            <MDBNavItem>
+            <MDBDropdown>
+              <MDBDropdownToggle nav caret>
+                <span className="mr-2">Help</span>
+              </MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
+                <MDBDropdownItem href="/MensWear">FAQs</MDBDropdownItem>               
+              </MDBDropdownMenu>
+            </MDBDropdown>
+          </MDBNavItem>
+
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>

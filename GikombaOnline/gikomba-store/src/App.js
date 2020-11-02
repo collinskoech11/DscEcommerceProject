@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './css/products/WomensWear.css'
-import Navbar from './Navigators/NavBar';
+import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import CustomFooter from './Navigators/CustomFooter';
