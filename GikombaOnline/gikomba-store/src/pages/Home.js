@@ -5,7 +5,7 @@ import WomensWear from './productsPage/WomensWear'
 export default function Home() {
     return (
         <div>
-        <WomensWear/>
+        <mensWear/>
         </div>
     )
 }
