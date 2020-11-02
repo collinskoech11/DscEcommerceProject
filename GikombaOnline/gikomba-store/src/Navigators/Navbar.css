@@ -1,0 +1,28 @@
+.navbar {
+    background: lightgray;
+    height: 80px;
+    display: flex;
+    /**justify-content: center;**/
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 20px;
+  }
+  .navbar .title{
+      color:navy;
+      font-weight: bold;
+      font-size: 35px;
+  }
+  .navbar .navigation{
+      right: 0;
+      margin-left: 10%;
+  }
+  .navbar .navigation button{
+      border:none;
+      margin-left: 20px;
+      width: 100px;
+      height:50px;
+      background-color:transparent;
+  }
