@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import './css/products/WomensWear.css'
+import './css/products/WomensWear.css';
+import './css/Screens/ProductScreen.css';
 import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
@@ -11,6 +12,7 @@ import MensWear from './pages/productsPage/MensWear';
 import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
+import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen'
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
      <Route path="/Shoes" component={Shoes}/>
      <Route path="/Watches" component={Watches}/>
      <Route path="/WomensWear" component={WomensWear}/>
-     
+
+     {/*product screens */}
+     <Route path="/Product/:id" component={WomensProductScreen}/>
     </div>
     <CustomFooter/>
     </Router>
