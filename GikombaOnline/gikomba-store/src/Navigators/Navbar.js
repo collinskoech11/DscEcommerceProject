@@ -4,7 +4,8 @@ MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBFormInlin
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import {Nav,Navbar} from 'react-bootstrap'
+import {Nav,Navbar} from 'react-bootstrap';
+import "./Navbar.css"
 
 class NavBar extends Component {
 state = {
@@ -18,6 +19,7 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
+      <div className="nav-con">
       <MDBNavbar color="indigo" dark expand="md" fixed="top" margin-bottom="50px">
         <Navbar.Brand href="/">
           <strong className="white-text">Gikosh.com</strong>
@@ -74,6 +76,7 @@ render() {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
+      </div>
     </Router>
     );
   }
