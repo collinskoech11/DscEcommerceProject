@@ -18,7 +18,7 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbar color="indigo" dark expand="md" fixed="top" margin-bottom="50px">
         <Navbar.Brand href="/">
           <strong className="white-text">Gikosh.com</strong>
         </Navbar.Brand>
