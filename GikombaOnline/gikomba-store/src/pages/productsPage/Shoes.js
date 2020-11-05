@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import ShoesData from './Data/ShoesData';
+import StarRating from './StarRating';
 
 function Shoes() {
         return (
@@ -16,7 +17,7 @@ function Shoes() {
                                     <div className="product-name"><Link to={'/Product/' + product._id}>{product.name}</Link></div>
                                     <div className="product-brand">{product.brand}</div>
                                     <div className="product-price">Ksh.{product.price}</div>
-                                    <div className="product-rating">4.5 stars ({product.numReviews})</div>
+                                    <div className="product-rating"><StarRating/> ({product.numReviews} Reviews)</div>
                                     </div>
                 
                             </li>    

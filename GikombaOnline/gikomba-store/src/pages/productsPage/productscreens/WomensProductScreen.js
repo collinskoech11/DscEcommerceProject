@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {MDBIcon} from 'mdbreact'
 import WomensWearData from '../Data/WomensWearData';
+import StarRating from '../StarRating';
 
 
 function ProductScreen(props) {
@@ -23,7 +24,7 @@ function ProductScreen(props) {
                          <h4>{product.name}</h4>
                      </li>
                      <li>
-                         {product.rating} Stars ({product.numReviews} Reviews)
+                         <StarRating/> ({product.numReviews} Reviews)
                      </li>
                      <li>
                        Price:<b>Ksh.{product.price}</b>
