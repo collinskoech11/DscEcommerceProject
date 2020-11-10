@@ -30,6 +30,9 @@ render() {
             <MDBNavItem active to="/">
             <Nav.Link href="/">Home</Nav.Link>
             </MDBNavItem>
+            <MDBNavItem>
+              <Nav.Link href="">Login/SgnUp</Nav.Link>
+            </MDBNavItem>
            
            
 
