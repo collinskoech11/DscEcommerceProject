@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.app{
+    overflow-x: hidden;
+  }
+/*carousel container*/
 .container{
     max-width: 100% !important;
     padding-right: 0px !important;

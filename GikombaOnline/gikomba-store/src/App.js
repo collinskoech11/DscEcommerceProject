@@ -17,7 +17,7 @@ import WomensProductScreen from './pages/productsPage/productscreens/WomensProdu
 function App() {
   return (
     <Router>
-    <div>
+    <div className="app">
      <Navbar/>
      <Route exact path="/" component={Home}/>
      <Route path="/AboutPage" component={AboutPage}/>
