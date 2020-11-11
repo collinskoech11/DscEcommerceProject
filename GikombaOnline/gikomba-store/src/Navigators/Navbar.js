@@ -31,7 +31,7 @@ render() {
             <Nav.Link href="/">Home</Nav.Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Nav.Link href="">Login/SgnUp</Nav.Link>
+              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
             </MDBNavItem>
            
            
