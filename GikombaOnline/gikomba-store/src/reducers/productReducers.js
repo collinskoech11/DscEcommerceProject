@@ -1,3 +1,4 @@
+import { PRODUCT_PAGE_FAIL, PRODUCT_PAGE_REQUEST, PRODUCT_PAGE_SUCCESS } from "../constants/productConstants";
 
 function productPageReducer(state= {products:[]}, action){
     switch (action.type){

@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import StarRating from './StarRating';
 import axios from 'axios';
@@ -11,11 +11,11 @@ export class General extends Component {
             const {data} = await axios.get("/backend/Data");
             setProduct(data);
         }
-        effect
+        fetchData();
         return () => {
            
         }
-    }, [])
+    }, []);
     
     render() {
         return (
