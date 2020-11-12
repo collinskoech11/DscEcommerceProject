@@ -1,9 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import {Link} from 'react-router-dom';
-import GeneralData from './Data/GeneralData';
 import StarRating from './StarRating';
+import axios from 'axios';
 
 export class General extends Component {
+    const [products, setProduct] ; useState([]);
+
+    useEffect(() => {
+        const fetchData = async () =>{
+            const {data} = await axios.get("/backend/Data");
+            setProduct(data);
+        }
+        effect
+        return () => {
+           
+        }
+    }, [])
+    
     render() {
         return (
             <div className="content">
