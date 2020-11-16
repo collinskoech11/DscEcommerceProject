@@ -1,5 +1,6 @@
 import React from 'react';
-import { Provider} from 'react-import { connect } from';react-redux;
+/**import { Provider} from 'react-import';
+import { connect } from 'react-redux';**/
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -7,7 +8,6 @@ import * as serviceWorker from './serviceWorker';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import'bootstrap-css-only/css/bootstrap.min.css'; 
 import'mdbreact/dist/css/mdb.css';
-import store from './store';
 
 
 ReactDOM.render(
