@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './css/products/WomensWear.css';
 import './css/Screens/ProductScreen.css';
+import './css/Login.css';
 import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
@@ -13,6 +14,7 @@ import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen'
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
 
      {/*product screens */}
      <Route path="/Product/:id" component={WomensProductScreen}/>
+
+     <Route path="/Login" component={Login}/>
     </div>
     <CustomFooter/>
     </Router>
