@@ -8,7 +8,9 @@
   }
 /*carousel container*/
 .container{
-    max-width: 100% !important;
+   
+    /**float: left;**/
+    margin-left: 0;
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
