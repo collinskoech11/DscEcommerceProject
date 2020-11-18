@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import GeneralData from './Data/GeneralData';
 import StarRating from './StarRating';
+import './General.css';
 
 export class General extends Component {
     
