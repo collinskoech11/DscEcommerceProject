@@ -2,12 +2,11 @@ import React from 'react';
 import './App.css';
 import './css/products/WomensWear.css';
 import './css/Screens/ProductScreen.css';
-import './css/Login.css';
 import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import CustomFooter from './Navigators/CustomFooter';
-import Login from './pages/Login'
+import Login from './pages/Login';
 import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
