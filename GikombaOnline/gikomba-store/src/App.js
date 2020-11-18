@@ -16,7 +16,7 @@ import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen'
-import Login from './pages/Login';
+
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
-     <Route path="/Login" component={Login}/>
+     
      
      {/*Products links*/}
      <Route path="/MensWear" component={MensWear}/>
