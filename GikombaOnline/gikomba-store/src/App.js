@@ -6,6 +6,7 @@ import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import CustomFooter from './Navigators/CustomFooter';
+import Login from './pages/Login'
 import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
@@ -24,6 +25,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
+     <Route path="/Login" component={Login}/>
      
      {/*Products links*/}
      <Route path="/MensWear" component={MensWear}/>

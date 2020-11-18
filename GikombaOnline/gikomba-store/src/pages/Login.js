@@ -1,8 +1,11 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
+import './Login.css';
 
-const FormPage = () => {
+const Login = () => {
 return (
+ 
+  <div className="container">
 <MDBContainer>
   <MDBRow>
     <MDBCol md="6">
@@ -24,6 +27,7 @@ return (
     </MDBCol>
   </MDBRow>
 </MDBContainer>
+</div>
 );
 };
 
