@@ -39,13 +39,14 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Store</span>
+                  <span className="mr-2">Categories</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem href="/WomensWear">Women's Wear</MDBDropdownItem>
                   <MDBDropdownItem href="/MensWear">Men's Wear</MDBDropdownItem>
                   <MDBDropdownItem href="Watches">Watches</MDBDropdownItem>
                   <MDBDropdownItem href="Shoes">Shoes</MDBDropdownItem>
+                  <MDBDropdownItem href="Shoes">Bales for Sale</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
@@ -62,6 +63,7 @@ render() {
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
+                <MDBDropdownItem href="/Location">Find Us</MDBDropdownItem>
                 <MDBDropdownItem href="/MensWear">FAQs</MDBDropdownItem>               
               </MDBDropdownMenu>
             </MDBDropdown>
