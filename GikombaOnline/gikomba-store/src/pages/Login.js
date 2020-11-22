@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Login.css';
 
 
 export class Login extends Component {
@@ -14,6 +15,11 @@ export class Login extends Component {
                 <label for="psw"><b>Password</b></label>
                 <input type="password" id="psw" name="psw" required></input>
                 <button type="submit">Login</button>
+
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="reset.html">password?</a></span>
+
+                <span class="account">Don't have an account? <a href="sign.html">Sign Up</a></span>
             </div>
         </form>
         )}
