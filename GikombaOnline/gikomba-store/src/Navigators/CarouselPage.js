@@ -8,7 +8,7 @@ const CarouselPage = () => {
     <MDBContainer>
       <MDBCarousel
       activeItem={1}
-      length={6}
+      length={7}
       showControls={true}
       showIndicators={true}
       className="z-depth-1"
