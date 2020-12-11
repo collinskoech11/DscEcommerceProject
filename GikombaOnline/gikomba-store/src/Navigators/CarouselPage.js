@@ -8,7 +8,7 @@ const CarouselPage = () => {
     <MDBContainer>
       <MDBCarousel
       activeItem={1}
-      length={3}
+      length={6}
       showControls={true}
       showIndicators={true}
       className="z-depth-1"
@@ -32,6 +32,20 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
+              src="https://source.unsplash.com/400x200/?styles"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">All Styles</h3>
+            <p>Become a fashionista</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="3">
+          <MDBView>
+            <img
+              className="d-block w-100"
               src="https://source.unsplash.com/400x200/?trousers"
               alt="Second slide"
             />
@@ -42,7 +56,7 @@ const CarouselPage = () => {
             <p>Bussiness Oriented</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
-        <MDBCarouselItem itemId="3">
+        <MDBCarouselItem itemId="4">
           <MDBView>
             <img
               className="d-block w-100"
@@ -54,6 +68,34 @@ const CarouselPage = () => {
           <MDBCarouselCaption>
             <h3 className="h3-responsive">Large Variety of styles</h3>
             <p>fit for all</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="5">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://source.unsplash.com/400x200/?skirts"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">All Latest Fashion available</h3>
+            <p>Become a fashionista</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="6">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://source.unsplash.com/400x200/?skirts"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">All Latest Fashion available</h3>
+            <p>Become a fashionista</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>
