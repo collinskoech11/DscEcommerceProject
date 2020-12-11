@@ -98,6 +98,20 @@ const CarouselPage = () => {
             <p>Become a fashionista</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
+        <MDBCarouselItem itemId="7">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src="https://source.unsplash.com/400x200/?shoes"
+              alt="First slide"
+            />
+          <MDBMask overlay="black-light" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h3 className="h3-responsive">Best of fashion in shoes</h3>
+            <p>Become a fashionista</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
     </MDBContainer>
