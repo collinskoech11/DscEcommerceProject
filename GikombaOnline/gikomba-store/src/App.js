@@ -16,6 +16,8 @@ import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen'
 import SignUp from './pages/SignUp';
+import Pages from './pages/Pages';
+
 
 
 
@@ -42,6 +44,7 @@ function App() {
      <Route path="/Login" component={Login}/>
      <Route path="/SignUp" component={SignUp}/>
     </div>
+    
     <CustomFooter/>
     </Router>
     
