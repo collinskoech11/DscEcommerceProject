@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import Pages from '../Pages';
 import MensWearData from './Data/MensWearData';
 import StarRating from './StarRating';
 
@@ -26,6 +27,7 @@ export class MensWear extends Component {
                     }
                 
             </ul>
+            <Pages/>
         </div>
         )
     }
