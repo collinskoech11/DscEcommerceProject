@@ -16,7 +16,7 @@ export class Login extends Component {
                 <input type="text" placeholder="Enter Username" name="uname"></input>
                 <label for="psw"><b>Password</b></label>
                 <input type="password" id="psw" name="psw" required></input>
-                <button type="submit">Login</button>
+                <button type="submit"><a href="/">Login</a></button>
 
                 <button type="button" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="reset.html">password?</a></span>
