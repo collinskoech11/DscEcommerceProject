@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Pages from '../Pages';
 import WatchesData from './Data/WatchesData';
 import StarRating from './StarRating';
 
@@ -25,6 +26,7 @@ function Watches() {
                     }
                 
             </ul>
+            <Pages/>
         </div>
                 
             )

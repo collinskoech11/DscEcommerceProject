@@ -1,5 +1,6 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom';
+import Pages from '../Pages';
 import WomensWearData from './Data/WomensWearData';
 import StarRating from './StarRating';
 
@@ -26,6 +27,7 @@ return (
                 }
             
         </ul>
+        <Pages/>
     </div>
             
         )

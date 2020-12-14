@@ -6,24 +6,5 @@
 .app{
     overflow-x: hidden;
   }
-/**products alignment fix**/
-.content{
-    margin-left: 8%;
-    padding: 0;
-}
-@media screen and (max-width:1000px){
-    .content{
-       /**margin-left:0;
-        margin-right: 0;
-        padding: 0;**/
-    }
-}
-/*carousel container*/
-.container{
-    max-width: 80%;
-    /**float: left;**/
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
+
+
