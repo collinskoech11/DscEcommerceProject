@@ -25,6 +25,7 @@ function Watches() {
                     }
                 
             </ul>
+            <Pages/>
         </div>
                 
             )
