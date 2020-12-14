@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import CustomFooter from './Navigators/CustomFooter';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
 import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
@@ -14,11 +15,8 @@ import MensWear from './pages/productsPage/MensWear';
 import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
-import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen'
-import SignUp from './pages/SignUp';
-
-
-
+import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
+import AddtoCart from './pages/addToCart'
 
 function App() {
   return (
@@ -29,6 +27,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
+     <Route path="/addToCart" component={AddtoCart}/>
      
      
      {/*Products links*/}
@@ -36,14 +35,13 @@ function App() {
      <Route path="/Shoes" component={Shoes}/>
      <Route path="/Watches" component={Watches}/>
      <Route path="/WomensWear" component={WomensWear}/>
+     
 
      {/*product screens */}
      <Route path="/Product/:id" component={WomensProductScreen}/>
 
      <Route path="/Login" component={Login}/>
-     <Route path="/SignUp" component={SignUp}/>
     </div>
-    
     <CustomFooter/>
     </Router>
     
