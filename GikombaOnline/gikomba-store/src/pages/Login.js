@@ -19,7 +19,7 @@ export class Login extends Component {
                 <button type="submit"><a href="/">Login</a></button>
 
                 <button type="button" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="reset.html">password?</a></span>
+                <span class="psw">Forgot <a href="reset.html">password?</a> </span>
 
                 <span class="account">Don't have an account? <a href="/SignUp">Sign Up</a></span>
             </div>
