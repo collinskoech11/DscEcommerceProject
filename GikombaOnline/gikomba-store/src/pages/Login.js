@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
+import {Link} from 'react-router-dom;'
 
 
 
@@ -20,7 +21,7 @@ export class Login extends Component {
                 <button type="button" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="reset.html">password?</a></span>
 
-                <span class="account">Don't have an account? <a href="sign.html">Sign Up</a></span>
+                <span class="account">Don't have an account? <Link to="/SignUp">Sign Up</Link></span>
             </div>
         </form>
         )}
