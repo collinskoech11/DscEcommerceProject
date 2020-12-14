@@ -1,6 +1,7 @@
 import React from 'react';
 import General from './productsPage/General';
 import CarouselPage from '../Navigators/CarouselPage';
+import Pages from './Pages';
 
 
 
@@ -10,6 +11,7 @@ export default function Home() {
         <div>
         <CarouselPage/>
         <General/>
+        <Pages/>
         </div>
     )
 }
