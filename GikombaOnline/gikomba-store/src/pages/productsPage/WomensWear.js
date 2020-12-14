@@ -26,6 +26,7 @@ return (
                 }
             
         </ul>
+        <Pages/>
     </div>
             
         )
