@@ -11,7 +11,7 @@ export class addToCart extends Component {
             <div className="card card-body border-0">
 
                 {
-                       cartItems.map(product =>  <CartItem key={product.id} product={product}/>)
+                       CartItem.map(product =>  <CartItem key={product.id} product={product}/>)
                 }
 
             </div>
