@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { PlusCircleIcon, MinusCircleIcon, TrashIcon } from './cartComponents/icons';
 import { CartContext } from './contexts/CartContext';
 
-import { formatNumber } from '../../helpers/utils';
+import { formatNumber } from './helpers/utils';
 
 const CartItem = ({product}) => {
 
