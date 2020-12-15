@@ -6,6 +6,7 @@ import './css/Screens/ProductScreen.css';
 import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages/Home';
+import addToCart from './pages/addToCart'
 import CustomFooter from './Navigators/CustomFooter';
 import Login from './pages/Login';
 import AboutPage from './pages/AboutPage';
