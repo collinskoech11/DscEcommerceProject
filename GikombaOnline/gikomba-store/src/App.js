@@ -16,6 +16,7 @@ import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
 import AddtoCart from './pages/addToCart'
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
 
      {/*product screens */}
      <Route path="/Product/:id" component={WomensProductScreen}/>
-
+     <Route path="/SignUp" component={SignUp}/>
      <Route path="/Login" component={Login}/>
      <addToCart/>
     </div>
