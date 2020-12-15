@@ -1,12 +1,10 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
 import './App.css';
 import './css/products/WomensWear.css';
 import './css/Screens/ProductScreen.css';
 import Navbar from './Navigators/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
-import addToCart from './pages/addToCart'
 import CustomFooter from './Navigators/CustomFooter';
 import Login from './pages/Login';
 import AboutPage from './pages/AboutPage';
@@ -42,6 +40,7 @@ function App() {
      <Route path="/Product/:id" component={WomensProductScreen}/>
 
      <Route path="/Login" component={Login}/>
+     <addToCart/>
     </div>
     <CustomFooter/>
     </Router>
