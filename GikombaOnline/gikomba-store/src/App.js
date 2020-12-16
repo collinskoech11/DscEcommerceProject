@@ -16,6 +16,7 @@ import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
 import SignUp from './pages/SignUp';
+import CheckOut from './pages/Checkout/CheckOut';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
-     
+     <Route path="/checkOut" component={CheckOut}/>
      
      
      {/*Products links*/}
