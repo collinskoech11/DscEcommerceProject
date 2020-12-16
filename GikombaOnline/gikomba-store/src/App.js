@@ -27,7 +27,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
-     <Route path="/addToCart" component={AddtoCart}/>
+     
      
      
      {/*Products links*/}
