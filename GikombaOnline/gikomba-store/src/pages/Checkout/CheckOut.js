@@ -97,7 +97,7 @@ export default function CheckOut() {
       <AppBar position="absolute" color="default" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Company name
+            Gikosh.com
           </Typography>
         </Toolbar>
       </AppBar>
