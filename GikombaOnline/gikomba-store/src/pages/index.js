@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
 import Layout from './components/Layout';
-
-import addToCart from './addToCart';
 import { CartContext } from './contexts/CartContext';
 import { formatNumber } from './helpers/utils';
 import { Link } from 'react-router-dom';

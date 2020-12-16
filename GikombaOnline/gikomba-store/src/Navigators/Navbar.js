@@ -5,7 +5,7 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
-import "./Navbar.css"
+
 
 class NavBar extends Component {
 state = {
@@ -20,7 +20,7 @@ render() {
   return (
     <Router>
       <div className="nav-con">
-      <MDBNavbar color="indigo" dark expand="md" fixed="top" margin-bottom="50px">
+      <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
         <Navbar.Brand href="/">
           <strong className="white-text">Gikosh.com</strong>
         </Navbar.Brand>
@@ -31,7 +31,7 @@ render() {
             <Nav.Link href="/">Home</Nav.Link>
             </MDBNavItem>
             <MDBNavItem>
-              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
+              <Nav.Link href="/CheckOut">checkout</Nav.Link>
             </MDBNavItem>
            
            
@@ -49,10 +49,6 @@ render() {
                   <MDBDropdownItem href="Shoes">Bales for Sale</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
-            </MDBNavItem>
-
-            <MDBNavItem href="/addToCart">
-            <Nav.Link href="/addToCart">Cart</Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
@@ -78,9 +74,12 @@ render() {
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+                  <input className="form-control mr-sm-1" type="text" placeholder="Search" aria-label="Search" />
                 </div>
               </MDBFormInline>
+            </MDBNavItem>
+            <MDBNavItem>
+              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
