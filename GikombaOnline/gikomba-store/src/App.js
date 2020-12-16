@@ -17,7 +17,7 @@ import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
 import AddtoCart from './pages/addToCart'
 import SignUp from './pages/SignUp';
-import CartItem from './pages/CartItem';
+
 
 function App() {
   return (
@@ -42,8 +42,8 @@ function App() {
      <Route path="/Product/:id" component={WomensProductScreen}/>
      <Route path="/SignUp" component={SignUp}/>
      <Route path="/Login" component={Login}/>
-     <addToCart/>
-     <Route path="/CartItem" component={CartItem}/>
+     
+     
     </div>
     <CustomFooter/>
     </Router>
