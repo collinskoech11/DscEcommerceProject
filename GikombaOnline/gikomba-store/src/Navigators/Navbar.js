@@ -49,10 +49,6 @@ render() {
               </MDBDropdown>
             </MDBNavItem>
 
-            <MDBNavItem href="/addToCart">
-            <Nav.Link href="/addToCart">Cart</Nav.Link>
-            </MDBNavItem>
-
             <MDBNavItem href="/AboutPage">
             <Nav.Link href="/AboutPage">About Us</Nav.Link>
             </MDBNavItem>
