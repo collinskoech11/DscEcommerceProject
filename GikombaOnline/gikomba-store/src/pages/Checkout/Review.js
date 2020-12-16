@@ -10,10 +10,10 @@ const products = [
   { name: 'Product 1', desc: 'A nice thing', price: 'Ksh.6000' }
   
 ];
-const addresses = ['1 Material-UI Drive', 'Reactville', 'Anytown', '99999', 'USA'];
+const addresses = ['Ongata Rongai','Kenya','Nairobi'];
 const payments = [
   { name: 'Card type', detail: 'Visa' },
-  { name: 'Card holder', detail: 'Mr John Smith' },
+  { name: 'Card holder', detail: 'Mr Collins Koech' },
   { name: 'Card number', detail: 'xxxx-xxxx-xxxx-1234' },
   { name: 'Expiry date', detail: '04/2024' },
 ];
@@ -48,7 +48,7 @@ export default function Review() {
         <ListItem className={classes.listItem}>
           <ListItemText primary="Total" />
           <Typography variant="subtitle1" className={classes.total}>
-            $34.06
+            Ksh.6000
           </Typography>
         </ListItem>
       </List>
