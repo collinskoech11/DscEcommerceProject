@@ -30,9 +30,7 @@ render() {
             <MDBNavItem active to="/">
             <Nav.Link href="/">Home</Nav.Link>
             </MDBNavItem>
-            <MDBNavItem>
-              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
-            </MDBNavItem>
+            
            
            
 
@@ -81,6 +79,9 @@ render() {
                   <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
                 </div>
               </MDBFormInline>
+            </MDBNavItem>
+            <MDBNavItem>
+              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
