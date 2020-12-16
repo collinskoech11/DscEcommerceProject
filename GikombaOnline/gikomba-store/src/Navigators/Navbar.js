@@ -20,7 +20,7 @@ render() {
   return (
     <Router>
       <div className="nav-con">
-      <MDBNavbar color="indigo" dark expand="md" fixed="top" margin-bottom="50px">
+      <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
         <Navbar.Brand href="/">
           <strong className="white-text">Gikosh.com</strong>
         </Navbar.Brand>
