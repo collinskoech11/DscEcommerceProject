@@ -15,7 +15,6 @@ import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
-import AddtoCart from './pages/addToCart'
 import SignUp from './pages/SignUp';
 
 
