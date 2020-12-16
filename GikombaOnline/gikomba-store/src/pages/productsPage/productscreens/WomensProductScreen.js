@@ -55,7 +55,7 @@ function ProductScreen(props) {
                        </select>
                    </li>
                    <li>
-                       <button className="button">Add to cart <MDBIcon icon="cart-plus"/></button>
+                       <button className="button" onclick>Add to cart <MDBIcon icon="cart-plus"/></button>
                    </li>
                </ul>
            </div>
