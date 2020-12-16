@@ -6,7 +6,7 @@ function AboutPage() {
         <h1  className="h1-responsive font-weight-bold text-center my-5">ABOUT US</h1>
         <p className="text-center w-responsive mx-auto pb-5">Gikosh.com is a platform where you will be able to sell your thrift items online.
          Gikosh will ensure you reach out as many clients as possible locally and also globally
-         we are here to make sure you are satisfied at an affordble price<br/>
+         we are here to make sure you are satisfied at an affordble price<br/><br/>
          
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus tempus odio quis faucibus. Suspendisse facilisis imperdiet lacus. Cras lacus eros, cursus id ligula sed, porta aliquet sem. Donec vel enim et neque iaculis vulputate in placerat ante. Sed nec ex laoreet, ornare ante ut, porta nulla. Nam sed consectetur tortor, sit amet vestibulum erat. Pellentesque pretium venenatis justo a venenatis. Sed interdum lorem ac nunc hendrerit, nec mollis sapien tempus. Etiam et nisi a lorem pharetra vehicula sit amet ac ligula. Curabitur at nisi fermentum, euismod dui sed, tristique urna. Ut pulvinar ut massa eget pulvinar. Cras massa arcu, facilisis ac neque id, cursus pretium turpis.
 
