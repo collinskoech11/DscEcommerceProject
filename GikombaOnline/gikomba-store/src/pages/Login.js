@@ -7,7 +7,7 @@ export class Login extends Component {
         return (
             <form>
             <div className="container">
-                <h2>Login Form</h2>
+                <h2>Login</h2>
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname"></input>
                 <label for="psw"><b>Password</b></label>
