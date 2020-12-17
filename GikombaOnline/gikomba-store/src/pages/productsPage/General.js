@@ -22,7 +22,6 @@ export class General extends Component {
                         <div className="product-price">Ksh.{product.price}</div>
                         <div className="product-rating"><StarRating/>({product.numReviews} Reviews)</div>
                         </div>
-    
                 </li>    
                 )
                     }
