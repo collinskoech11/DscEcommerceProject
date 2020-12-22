@@ -31,6 +31,7 @@ function App() {
      <Route path="/Location" component={Location}/>
      <Route path="/cart" component={cart}/>
      <Route path="/checkOut" component={CheckOut}/>
+     <Route path="/cart" component={cart}/>
      
      
      {/*Products links*/}

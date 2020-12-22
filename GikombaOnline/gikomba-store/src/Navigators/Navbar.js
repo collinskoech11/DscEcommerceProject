@@ -33,6 +33,9 @@ render() {
             <MDBNavItem>
               <Nav.Link href="/CheckOut">checkout</Nav.Link>
             </MDBNavItem>
+            <MDBNavItem>
+              <Nav.Link href="/Cart">cart</Nav.Link>
+            </MDBNavItem>
            
            
 
