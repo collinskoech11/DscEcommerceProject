@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Switch } from "react-router-dom";
-=======
->>>>>>> bef0ef067667d7a0a8b67cccfa40e616839a1c5e
 import './App.css';
 import './css/products/WomensWear.css';
 import './css/Screens/ProductScreen.css';
