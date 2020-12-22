@@ -8,9 +8,6 @@ function cart(props) {
       const product = WomensWearData.products.find(x => x._id === props.match.params.id);
        return(
        <div>
-       <div className="back-to-result"> 
-               <Link to="/">Back to result</Link>
-           </div>
             (
                 <div className="details">
                <div className="details-image">
