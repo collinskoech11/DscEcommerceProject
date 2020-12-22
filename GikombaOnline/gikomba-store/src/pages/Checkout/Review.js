@@ -7,7 +7,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Grid from '@material-ui/core/Grid';
 
 const products = [
-  { name: 'Product 1', desc: 'A nice thing', price: 'Ksh.6000' }
+  { name: 'Product 1', desc: 'A nice thing', price: 'Ksh.6000' },
+  { name: 'Shipping', desc: '', price: 'Free' }
   
 ];
 const addresses = ['Ongata Rongai','Kenya','Nairobi'];
