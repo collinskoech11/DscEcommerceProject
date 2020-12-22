@@ -55,7 +55,7 @@ function ProductScreen(props) {
                        </select>
                    </li>
                    <li>
-                       <button className="button" onclick={() => {window.location.href="/CartItem"}}>
+                       <button className="button" onclick={() => {window.location.href="/cart"}}>
                        Add to cart <MDBIcon icon="cart-plus"/></button>
                    </li>
                </ul>
