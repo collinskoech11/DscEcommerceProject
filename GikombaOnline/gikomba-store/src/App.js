@@ -15,7 +15,6 @@ import Shoes from './pages/productsPage/Shoes';
 import Watches from './pages/productsPage/Watches';
 import WomensWear from './pages/productsPage/WomensWear';
 import WomensProductScreen from './pages/productsPage/productscreens/WomensProductScreen';
-import SignUp from './pages/SignUp';
 import CheckOut from './pages/Checkout/CheckOut';
 import cart from './pages/Cart/cart';
 
@@ -43,7 +42,6 @@ function App() {
 
      {/*product screens */}
      <Route path="/Product/:id" component={WomensProductScreen}/>
-     <Route path="/SignUp" component={SignUp}/>
      <Route path="/Login" component={Login}/>
      
      
